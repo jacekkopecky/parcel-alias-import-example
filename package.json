@@ -1,0 +1,25 @@
+{
+  "name": "alias-import",
+  "description": "React.js + Typescript + imports with tsconfig path aliases in Parcel.js",
+  "scripts": {
+    "serve": "NODE_ENV=development parcel serve --no-cache --dist-dir dist-serve/ pages/example/index.html",
+    "build": "parcel build --no-cache --public-url /example/ --dist-dir dist/example/ pages/example/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacekkopecky/parcel-alias-import-example.git"
+  },
+  "author": "Jacek Kopecky <jacek@jacek.cz>",
+  "homepage": "https://github.com/portsoc/parcel-alias-import-example#readme",
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.5.0",
+    "@parcel/validator-typescript": "^2.5.0",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "parcel": "^2.5.0",
+    "parcel-resolver-tspaths": "^0.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.6.3"
+  }
+}
