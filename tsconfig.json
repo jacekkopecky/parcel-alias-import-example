@@ -17,7 +17,7 @@
     "allowUnreachableCode": false,
     "baseUrl": ".",
     "paths": {
-      "shared/*": ["pages/shared/*"]
+      "@shared/*": ["pages/shared/*"]
     }
   },
   "include": [
